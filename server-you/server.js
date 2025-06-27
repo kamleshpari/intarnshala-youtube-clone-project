@@ -33,5 +33,4 @@ mongoose.connect(process.env.MONGO_URL)
   .then(() => app.listen(process.env.PORT, () => console.log("Server running on 4000")))
   .catch((err) => console.error(err));
 
-  ///D3crtYBbhhCrh5e0
-  //MONGO_URL=mongodb+srv://vkkamali09:D3crtYBbhhCrh5e0@cluster0.9zquznh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+  
